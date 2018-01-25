@@ -1,14 +1,18 @@
 author: StupidBot
 version: 1.0.0
-name: eBar
-main: com.stupidbot.universalbossbar.Main
-description: Boss bars!
+name: eAnnouncer
+main: com.stupidbot.universalannouncer.Main
+description: Announcements!
 commands:
-   reloadbossbars:
-     description: Reloads boss bar(s)!
-     aliases: [reloadbossbar, reloaduniversalbossbar, reloaduniversalbossbars, reloadbar, reloadbars]
-     usage: /<command>
-   togglebars:
-     description: Hides boss bar(s)!
-     aliases: [togglebar, togglebossbars, togglebossbar]
-     usage: /<command>
+  reloadannouncements:
+    description: Reloads announcement(s)!
+    aliases: [reloadannouncement, reloaduniversalannouncement, reloaduniversalannouncements]
+    usage: /<command>
+  toggleannouncements:
+    description: Hides hides annoucement(s)!
+    aliases: [toggleannouncement]
+    usage: /<command>
+  testannouncements:
+    description: Test announcement(s)!
+    aliases: [testannouncement]
+    usage: /<command> <announcement id>
